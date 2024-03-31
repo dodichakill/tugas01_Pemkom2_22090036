@@ -77,7 +77,8 @@ public class MainConfig extends javax.swing.JDialog {
         jLabel7.setText("Username");
 
         txtUsername.setEditable(false);
-        txtUsername.setForeground(new java.awt.Color(237, 227, 227));
+        txtUsername.setBackground(new java.awt.Color(195, 195, 195));
+        txtUsername.setForeground(new java.awt.Color(1, 1, 1));
         txtUsername.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtUsernameActionPerformed(evt);
@@ -85,7 +86,8 @@ public class MainConfig extends javax.swing.JDialog {
         });
 
         txtID.setEditable(false);
-        txtID.setForeground(new java.awt.Color(237, 227, 227));
+        txtID.setBackground(new java.awt.Color(195, 195, 195));
+        txtID.setForeground(new java.awt.Color(1, 1, 1));
         txtID.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtIDActionPerformed(evt);
@@ -95,18 +97,26 @@ public class MainConfig extends javax.swing.JDialog {
         jLabel8.setText("Nomor HP");
 
         txtNumber.setEditable(false);
-        txtNumber.setForeground(new java.awt.Color(237, 227, 227));
+        txtNumber.setBackground(new java.awt.Color(195, 195, 195));
+        txtNumber.setForeground(new java.awt.Color(1, 1, 1));
+        txtNumber.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtNumberActionPerformed(evt);
+            }
+        });
 
         txtPassword.setEditable(false);
-        txtPassword.setForeground(new java.awt.Color(237, 227, 227));
+        txtPassword.setBackground(new java.awt.Color(195, 195, 195));
+        txtPassword.setForeground(new java.awt.Color(1, 1, 1));
 
         jLabel9.setText("Password");
 
         jLabel10.setText("BIO");
 
         txtBio.setEditable(false);
+        txtBio.setBackground(new java.awt.Color(195, 195, 195));
         txtBio.setColumns(20);
-        txtBio.setForeground(new java.awt.Color(237, 227, 227));
+        txtBio.setForeground(new java.awt.Color(1, 1, 1));
         txtBio.setRows(5);
         jScrollPane3.setViewportView(txtBio);
 
@@ -176,9 +186,9 @@ public class MainConfig extends javax.swing.JDialog {
                     .addComponent(jLabel8)
                     .addComponent(jLabel9))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(txtNumber, javax.swing.GroupLayout.PREFERRED_SIZE, 61, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txtPassword, javax.swing.GroupLayout.PREFERRED_SIZE, 61, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(txtPassword, javax.swing.GroupLayout.PREFERRED_SIZE, 61, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(txtNumber, javax.swing.GroupLayout.PREFERRED_SIZE, 61, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(29, 29, 29)
                 .addComponent(jLabel10)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -358,6 +368,10 @@ public class MainConfig extends javax.swing.JDialog {
     private void txtIDActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtIDActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_txtIDActionPerformed
+
+    private void txtNumberActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtNumberActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtNumberActionPerformed
 
     /**
      * @param args the command line arguments

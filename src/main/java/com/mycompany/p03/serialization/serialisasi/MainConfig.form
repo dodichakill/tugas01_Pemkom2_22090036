@@ -137,9 +137,9 @@
                           <Component id="jLabel9" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="txtNumber" alignment="3" min="-2" pref="61" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
                           <Component id="txtPassword" alignment="0" min="-2" pref="61" max="-2" attributes="0"/>
+                          <Component id="txtNumber" min="-2" pref="61" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
                       <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
@@ -181,8 +181,11 @@
             <Component class="javax.swing.JTextField" name="txtUsername">
               <Properties>
                 <Property name="editable" type="boolean" value="false"/>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="c3" green="c3" red="c3" type="rgb"/>
+                </Property>
                 <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="e3" green="e3" red="ed" type="rgb"/>
+                  <Color blue="1" green="1" red="1" type="rgb"/>
                 </Property>
               </Properties>
               <Events>
@@ -192,8 +195,11 @@
             <Component class="javax.swing.JTextField" name="txtID">
               <Properties>
                 <Property name="editable" type="boolean" value="false"/>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="c3" green="c3" red="c3" type="rgb"/>
+                </Property>
                 <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="e3" green="e3" red="ed" type="rgb"/>
+                  <Color blue="1" green="1" red="1" type="rgb"/>
                 </Property>
               </Properties>
               <Events>
@@ -208,16 +214,25 @@
             <Component class="javax.swing.JTextField" name="txtNumber">
               <Properties>
                 <Property name="editable" type="boolean" value="false"/>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="c3" green="c3" red="c3" type="rgb"/>
+                </Property>
                 <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="e3" green="e3" red="ed" type="rgb"/>
+                  <Color blue="1" green="1" red="1" type="rgb"/>
                 </Property>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtNumberActionPerformed"/>
+              </Events>
             </Component>
             <Component class="javax.swing.JTextField" name="txtPassword">
               <Properties>
                 <Property name="editable" type="boolean" value="false"/>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="c3" green="c3" red="c3" type="rgb"/>
+                </Property>
                 <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="e3" green="e3" red="ed" type="rgb"/>
+                  <Color blue="1" green="1" red="1" type="rgb"/>
                 </Property>
               </Properties>
             </Component>
@@ -241,9 +256,12 @@
                 <Component class="javax.swing.JTextArea" name="txtBio">
                   <Properties>
                     <Property name="editable" type="boolean" value="false"/>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="c3" green="c3" red="c3" type="rgb"/>
+                    </Property>
                     <Property name="columns" type="int" value="20"/>
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                      <Color blue="e3" green="e3" red="ed" type="rgb"/>
+                      <Color blue="1" green="1" red="1" type="rgb"/>
                     </Property>
                     <Property name="rows" type="int" value="5"/>
                   </Properties>
